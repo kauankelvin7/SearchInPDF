@@ -6,8 +6,6 @@ from pdf2image import convert_from_path
 from PIL import Image
 import time  
 
-pytesseract.pytesseract.tesseract_cmd = r'C:\Users\kelvi\AppData\Local\Programs\Tesseract-OCR\tesseract.exe'
-
 def buscar_texto_em_pdf(caminho_pdf, texto_procurado):
     """
     Procura por um texto em um PDF, usando OCR para PDFs baseados em imagens.
