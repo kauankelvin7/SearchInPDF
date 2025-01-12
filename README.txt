@@ -77,7 +77,7 @@ Abra o terminal ou Prompt de Comando.
 
 Execute os seguintes comandos para instalar as dependências:
 
-pip install PyPDF2 pytesseract pdf2image pillow
+pip install PyPDF2 pytesseract pdf2image pillow tk
 
 Certifique-se de que todas as bibliotecas foram instaladas corretamente:
 
